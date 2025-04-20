@@ -1,0 +1,97 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100vh;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.front-img {
+  background: url("../images/image.jpeg") no-repeat center;
+  width: 100vw;
+  height: 40vh;
+  text-align: center;
+}
+.front-img > p {
+  transform: translate(-15%, 10%);
+  font-size: 5rem;
+}
+.about {
+  font: 1.2rem arial;
+  width: 100%;
+  margin: auto;
+}
+
+.main {
+  width: 80%;
+  height: 200%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+.events {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+.event-pic {
+  width: 30%;
+}
+.event-text {
+  width: 66%;
+}
+.event-text > h2 {
+  text-align: left;
+}
+.last {
+  width: 100;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: center;
+}
+.cards {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 5%;
+}
+.card {
+  margin: auto;
+}
+.card-name {
+  margin: auto;
+  margin-top: 10%;
+  font-size: 1.2rem arial;
+  padding: auto;
+  text-align: center;
+}
+
+.form {
+  width: 80%;
+  margin: auto;
+  margin-top: 15%;
+  margin-left: 15%;
+  font-size: 1.3rem;
+  margin-bottom: 10%;
+}
+input {
+  width: 50%;
+}
+.input {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.radio {
+  margin: 0;
+  padding: 0;
+  width: 40%;
+}
+button {
+  width: 80%;
+  height: 10%;
+  font-size: 2rem;
+}
